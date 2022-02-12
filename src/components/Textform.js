@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-export default function textform(props) {
+export default function Textform(props) {
     // All function must be defined/Declared Here above 'return' 
     let changeTextUpperCase = ()=>{
         console.log('Change Text');
