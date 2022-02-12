@@ -1,25 +1,48 @@
-import logo from "./logo.svg";
-import "./App.css";   // Import/add any file like this
+// import logo from "./logo.svg";
+import "./App.css"; // Import/add any file like this
 
+// let name = "Rahul";
 function App() {
   return (
     <>
-      <h1 className="heading">Welcome!</h1>
-      <ul className="list">
-        <li className="item">Home</li>
-        <li className="item">About</li>
-        <li className="item">Contact</li>
-      </ul>
-      <div className="blank">
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident
-          quos earum id eligendi alias magni debitis tempore, repellendus
-          soluta, dolore distinctio, maxime aperiam. Quis odit debitis
-          voluptatibus ducimus, facere ab labore corporis molestias, sapiente
-          obcaecati maiores possimus earum optio numquam ex sit perspiciatis
-          similique accusamus ipsum placeat, perferendis omnis quod.
-        </p>
-      </div>
+      <nav className="navbar navbar-expand-lg navbar-light bg-success">
+        <div className="container-fluid">
+          <a className="navbar-brand" href="/">
+            Navbar
+          </a>
+          <button
+            className="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span className="navbar-toggler-icon"></span>
+          </button>
+          <div className="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+              <li className="nav-item">
+                <a className="nav-link active" aria-current="page" href="/">
+                  Home
+                </a>
+              </li>
+            </ul>
+            <form className="d-flex">
+              <input
+                className="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button className="btn btn-outline-success" type="submit">
+                Search
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
     </>
   );
 }
