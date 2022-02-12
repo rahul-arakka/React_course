@@ -1,6 +1,8 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
+// Props means properties which are passed in the component as attributes 
+
 export default function Navbar(props){
     return(
         <nav className="navbar navbar-expand-lg navbar-light bg-success">
@@ -23,7 +25,7 @@ export default function Navbar(props){
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               <li className="nav-item">
                 <a className="nav-link active" aria-current="page" href="/">
-                  {props.item}
+                  Item No. {props.item}
                 </a>
               </li>
             </ul>
@@ -44,10 +46,13 @@ export default function Navbar(props){
     );
 }
 
+// Props type can be set like this 
 Navbar.propTypes = {
     title: PropTypes.string,
     item: PropTypes.number
 }
+
+// Props can be set with defalut values
 Navbar.defaultProps = {
     title:'Give Title',
     item: 2
