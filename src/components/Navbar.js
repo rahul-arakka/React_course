@@ -25,7 +25,7 @@ export default function Navbar(props){
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               <li className="nav-item">
                 <a className="nav-link active" aria-current="page" href="/">
-                  Item No. {props.item}
+                  {props.item}
                 </a>
               </li>
             </ul>
@@ -48,8 +48,7 @@ export default function Navbar(props){
 
 // Props type can be set like this 
 Navbar.propTypes = {
-    title: PropTypes.string,
-    item: PropTypes.number
+    title: PropTypes.string
 }
 
 // Props can be set with defalut values
