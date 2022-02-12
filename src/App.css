@@ -36,3 +36,14 @@
     transform: rotate(360deg);
   }
 }
+
+.blank{
+  color: green;
+  border: 2px solid brown;
+}
+.heading{
+  border: 3px dotted blue;
+}
+.list{
+  border: 2px solid yellowgreen;
+}
