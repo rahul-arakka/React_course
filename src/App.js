@@ -2,7 +2,7 @@ import React ,{useState} from 'react'
 import "./App.css"; // Import/add any file like this
 import Navbar from './components/Navbar'
 import Textform from "./components/Textform";
-// let name = "Rahul";
+
 function App() {
 
   const [mode, setMode] = useState('light');
