@@ -1,0 +1,6 @@
+This file is made on 13/02/2022 8:15 PM
+I'm writing some tasks here that I want to add to my "First_React_App" later:
+
+1. Add alert() for every button added.
+2. Add options to select the theme color and the color should be add to the theme.
+3. Remove empty spaces like (" ") in word counting.
